@@ -13,7 +13,7 @@
 
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
-    <a class="navbar-brand text-muted" href="#"> Toddler Talk</a>
+    <a class="navbar-brand text-muted" href="index.html"> Toddler Talk</a>
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -21,11 +21,11 @@
     </button>
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li> <a href="#">Color</a>
+        <li> <a href="red.html">Color</a>
         </li>
-        <li> <a href="#">Alphabet</a>
+        <li> <a href="a.html">Alphabet</a>
         </li>
-        <li> <a href="#contact">Animals</a>
+        <li> <a href="lion.html">Animals</a>
         </li>
       </ul>
     </div>
@@ -45,7 +45,7 @@
 			<div class=".col-md-6 .col-md-offset-3 text-center">
 				<h4>Name this object</h4>
 			<div class=".col-md-6">
-				<p onclick='responsiveVoice.speak("A for Apple");'><font size="15">&#x1F3E0;</p>
+				<p onclick='responsiveVoice.speak("H for House");'><font size="15">&#x1F3E0;</p>
 			</div>
 			</div>
 		</div>
@@ -58,9 +58,9 @@
   window.onload = function(){
     if (annyang) {
         var commands1 = {
-            'apple': function() {
+            'house': function() {
                
-               window.location="http://localhost:8000/done.html"; 
+               window.location="i.html"; 
             }
         };
 		annyang.addCommands(commands1);
